@@ -22,13 +22,6 @@ I also took help from **ChatGPT** whenever I needed clarification or guidance.
 - Modern CSS styling  
 - Beginner-friendly implementation  
 
-## 📂 Project Structure  
-project-folder/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-
 
 ## 🚀 How to Run the Project  
 1. Clone the repository  
