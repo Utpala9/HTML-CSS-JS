@@ -1,0 +1,53 @@
+
+
+ #box-1{
+
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;background-color: coral;
+    border: 4px solid rgb(175, 73, 1);
+    
+    position:absolute;
+    right:0;
+    top: 0;
+   
+} 
+
+#box-2{
+
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: rgb(47, 193, 195);
+    border: 4px solid rgb(13, 106, 115);
+
+    position: absolute;
+    left:0;
+    top:0;
+
+}
+
+#box-3{
+
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: rgb(202, 99, 99);
+    border: 4px solid rgb(106, 8, 20);
+
+   position: absolute;
+   top:50%;  
+   left:50%;
+   /* top: 50% & left: 50% move the top-left corner to the center */
+ 
+   transform: translate(-50%,-50%);
+   /* transform: translate(-50%, -50%) pulls it back by half of its own size */
+}
+
+
+h3{
+
+    color: azure;
+    text-align: center;
+
+}

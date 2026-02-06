@@ -1,0 +1,77 @@
+@font-face {
+    font-family:font1 ;
+    src: url(./Smile\ Delight\ \(Demo_Font\).otf);
+}
+
+@font-face {
+    font-family:font2;
+    src: url(./Gilroy-Thin.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* margin and padding 0 taki koi bhi element apne marzi sai marhgine and padding na le */
+    box-sizing: border-box;
+    /* 100px size and border automatically lg jayegi*/
+    font-family: font2 ;
+   
+}
+
+html,
+body{
+
+    height: 100%;
+    width: 100%;
+     background-color: #E4FF6E;
+
+}
+
+#main{
+
+    height: 100%;
+    width: 100%;
+
+    background-color: #E4FF6E;
+}
+
+nav{
+
+    /* background-color: blue; */
+    
+    padding: 30px 50px;
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .part2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 10px;
+}
+
+nav h2{
+
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+

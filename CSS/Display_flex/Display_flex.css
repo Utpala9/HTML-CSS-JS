@@ -1,0 +1,60 @@
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    background-color: black;
+}
+
+
+#parent{
+
+    height: 100%;
+    width: 100%;
+    margin: 10px,10px;
+    background-color: coral;
+
+    display:flex; /*display:flex is always given to parent */
+    align-items: center; /*Handals Y-axis(Cross axis)*/
+    justify-content:space-evenly;/* Handals x-axis(Main axis)*/
+
+}
+
+.child{
+
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(221, 39, 151);
+    background-color: aquamarine; 
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: center;
+     
+}
+
+ /* Image or video insertion in differnt child */
+
+ #child1{
+
+    background-image: url(https://i.pinimg.com/736x/c0/7a/18/c07a189a593d2aaf2a6c9c589506f259.jpg);
+   
+ }
+
+#child2 video{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    /* This is imp for fiting the video in the box */
+   
+ }
+
+ #child3{
+
+    background-image: url(https://i.pinimg.com/736x/e8/84/46/e88446ff55418fa1886a9d740fc09ff0.jpg);
+
+ }

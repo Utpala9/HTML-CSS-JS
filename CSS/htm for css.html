@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- linking CSS above the" head "tag(link then chos the option of CSS)-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lets learn css!╰(*°▽°*)╯</h1>
+    <br><br>
+
+    <h3 id="def1">❤️CSS is used to style and design web pages by controlling colors, layout, and alignment.</h3>
+    <!-- "window + . " for adding emoji-->
+
+    <h2>5 key CSS rules</h2>
+    <!-- writing in "h" tags -->
+    <h3>1.Cascade (Order matters)</h3>
+    <h3>2.Specificity (Power matters)</h3>
+    <h3>3.Inheritance (Parent → Child)</h3>
+    <h3>4.Box Model (Everything is a box)</h3>
+    <h3>5.Display & Positioning control layout</h3>
+
+     <br>
+
+     <h2>CSS Priority / Hierarchy (Highest → Lowest)</h2>
+     <!-- writing in orderd list -->
+    <ol>
+        <li>!important:Overrides everything (use rarely).</li>
+        <li>Inline CSS</li>
+        <li>ID selector</li>
+        <li>Class / Attribute / Pseudo-class</li>
+        <li>Element selector</li>
+        <li>inherited styles</li>
+        <li>IMP:If same selector level, then last written style wins.</li>
+    </ol>
+
+    <br>
+
+    <h2>Why Id and class is important</h2>
+    <h3>ID and class are important to uniquely identify elements and apply styles or actions to them.</h3>
+    <h4>(As you can see all the h1, h2, h3 has the same color n features,therefore id and class is imp to give them a diff personality)</h4>
+    <!-- writing in unorder list -->
+    <ul>
+       <li>ID: it is used for uniquely identifying one HTML element.</li>
+       <li>Class: it is used to apply the same style to multiple elements.</li>
+       <li>Number in ID/Class: IDs should not start with numbers because CSS selectors cannot target them properly.</li>
+    </ul>
+
+    <br>
+
+    <h2>How does it looks when given a unique id and class</h2>
+    
+    <br>
+
+
+        <h2 id="poem">Women in Tech</h2>
+        <h4 class="a">She codes with courage, dreams in logic bright,</h4>
+        <h4 class="b">Breaking walls of doubt, line by line,</h4>
+        <h4 class="a">In a world of tech, she claims her space,</h4>
+        <h4 class="b">Turning ideas to power, and passion into place.</h4>
+    
+    <!--NOTE & note are to diff identy in id or class -->
+    
+    <h2 id="h2box">BOX MODEL IN CSS</h2>
+    <!-- no space while mentioning id or clas -->
+
+    <div id="div1">
+
+        <h2 id="NOTE">NOTE:</h2>
+
+    <ul class="note">
+        <li>Class = same color for many</li>
+        <li> ID = unique personality for one.</li>
+        <li>There should not be any space while mentioning ID or Class</li>
+    </ul>
+
+    </div>
+    
+    <h2>PADDING AND MARGINE</h2>
+    
+    <ul>
+        <li>Padding → space inside an element, between content and border</li>
+        <li>Margin → space outside an element, between element and others</li>
+
+    </ul>
+
+    <div id="box2">
+        
+        <h3 class="box2h3">Padding & margine</h3>
+
+    </div>
+
+    <br>
+    <h3>div also get to mention by "#" in css</h3>
+
+    <div id="Parent"> 
+
+    <h3 class="h3"> PARENT </h3>
+
+        <div id="Child">
+
+            <h4 class="h3"> CHILD </h4>
+
+        </div>
+
+    </div>
+
+    <h3>"%"in css is used for relative size, depending upon on the parent element.</h3>
+    
+    <h2>vh in CSS</h2>
+    <ul>
+
+        <li>vh stands for Viewport Height.</li>
+        <li>It is a CSS unit used to set height relative to the height of the browser window.</li>
+      
+    </ul>
+
+    <h3>How vh works</h3>
+
+    <ul>
+        <li>1vh = 1% of the viewport height</li>
+        <li>100vh = 100% of the screen height</li>
+    </ul>
+
+    <br>
+
+    <h2>BUTTON</h2>
+    <h3>Button Hover in CSS</h3>
+    <h3>Hover is a CSS effect that changes the button’s appearance when the user places the mouse over it.</h3>
+    
+    <ul>
+
+        <li>To show the button is clickable</li>
+        <li>To improve user experience</li>
+        <li>To add interaction and feedback</li>
+    
+    </ul>
+
+    <button class="button-2" >
+        Get in !
+    </button>
+
+    <h2>🎬 Animated Button Background using CS</h2>
+    <h3>This CSS line is used to add a GIF animation as the background of a button and make it look neat and responsive.</h3>
+    <ul>
+        <li id="code">" background: url("animation.gif") center/cover no-repeat;"</li>
+        <li>url("animation.gif") → Sets the GIF as the background image (GIFs loop by default).</li>
+        <li>center → Centers the GIF inside the button.</li>
+        <li>cover → Scales the GIF to fully cover the button without distortion.</li>
+        <li>no-repeat → Prevents the GIF from repeating multiple times</li>
+
+    </ul>
+
+    <button class="button-1" >
+       Download 
+    </button>
+
+    <br>
+
+    <h1>Linking multiple css file in 1 html file</h1>
+    <ul>
+        <li>One HTML file can be linked with multiple CSS files.</li>
+        <li>All CSS files must be linked inside the "head" tag.</li>
+        <li>If the same style is written in more than one CSS file, the last linked file overrides the others.</li>
+        <li>Using multiple CSS files helps in better organization and readability</li>
+    </ul>
+   
+
+    <h2>position:absalute;</h2>
+
+    <ul>
+
+        <li>Removes the element from normal flow</li>
+        <li>Positions it relative to the nearest positioned parent</li>
+
+    </ul>
+
+   
+   <h2>Why the block doesnt come to the center</h2>
+   
+   <ul>
+
+    <li>top: 50% & left: 50% move the top-left corner to the center</li>
+    <li>transform: translate(-50%, -50%) pulls it back by half of its own size</li>
+
+   </ul>
+
+  <h2>display: flex</h2>
+
+  <ul>
+
+    <li>is used to align and arrange items easily in one row or column.</li>
+    <li>It helps in centering, spacing, and responsive layouts.</li>
+    <li>display: flex; is applied to the parent element</li>
+    <li>justify-content controls alignment on the main axis (X-axis by default).</li>
+    <li>align-items controls alignment on the cross axis (Y-axis by default).</li>
+
+</ul>
+
+<h2>Adding Image or Video in display: flex Boxes</h2>
+<h3>display: flex is used to align and arrange boxes in a row or column. You can easily place images or videos inside these boxes.</h3>
+<ul>
+
+    <li>display: flex → applied to parent</li>
+    <li>Images/videos go inside child boxes</li>
+    <li>object-fit: cover → fills box without distortion</li>
+    <li>autoplay loop muted → makes video play smoothly</li>
+
+</ul>
+
+<h2>Adding Video to Boxes Built Using display: flex</h2>
+<h4>When boxes are created using display: flex, a video cannot be added using CSS background.</h4>
+<h4>To play a video inside a specific box, the "video" tag must be placed inside the child "div".</h4>
+<h3>Changes Required in HTML</h3>
+
+<ol>
+
+    <li>Create a parent "div" and arrange child boxes using display: flex.</li>
+    <li>Insert the "video" tag inside the required child "div".</li>
+    <li>Specify width and height attributes in the "video" tag to define the initial size.</li>
+    <li>Use the "source" tag to link the local .mp4 file.</li>
+    <li>Add autoplay, muted, and loop attributes for smooth playback.</li>
+
+</ol>
+
+<h3>Changes Required in CSS</h3>
+
+<ol>
+
+    <li>Set fixed dimensions for the child boxes.</li>
+    <li>Use overflow: hidden to keep the video inside the box.</li>
+    <li>Apply object-fit: cover so the video fills the entire box without gaps.</li>
+
+</ol>
+
+<h2>Importing and Using Custom Fonts in CSS</h2>
+<h4>CSS cannot directly read ZIP files or font links downloaded as</h4>
+<h4>The font file must be extracted and available in a supported format before it can be used in CSS.</h4>
+<h3>Supported font formats for CSS:</h3>
+
+<ul>
+    <li>."ttf "(TrueType Font)</li>
+    <li>".otf" (OpenType Font)</li>
+    <li>".woff"</li>
+    <li>".woff2" (best and recommended for web)</li>
+
+</ul>
+
+<h4>If the font is not in one of these formats, it should be converted before use.</h4>
+
+<h3>Steps to import and use a custom font:</h3>
+
+<ol>
+
+    <li>Download and extract the font files.</li>
+    <li>Place the font file inside the project folder (for example, in a fonts/ directory).</li>
+    <li>Use the @font-face rule in CSS to define the font.</li>
+    <li>Apply the font using the font-family property.</li>
+
+</ol>
+
+
+</body>
+</html>

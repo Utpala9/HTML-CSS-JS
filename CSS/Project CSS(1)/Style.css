@@ -1,0 +1,196 @@
+/* CASCADING STYLE SHEET*/
+
+/* boiler plat */
+
+html,body{
+
+    height: 100%;
+    width:100%;
+   background-color: bisque;
+}
+/* html, body → This selects both the <html> and <body> elements together.
+
+height: 100%; → Makes the full height of the viewport.
+
+width: 100%; → Makes the full width of the viewport. */
+
+#def1{
+     
+    
+    color: teal;
+
+}
+
+h1{
+    color: black;
+    /* here color is property and black is the value  */
+    background-color: rgb(237, 197, 20);
+    /* text alignment */
+    text-align: center;
+    /* fonts */
+    font-style: italic;
+    font-weight: 1500;
+
+
+}
+h2{
+    color: brown;
+
+}
+
+h3{
+    color: rgb(26, 26, 125);
+}
+
+/* We use "#" for writing ID & "." for class */
+
+#poem{
+
+    color: darkmagenta;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-variant: small-caps;
+    
+
+}
+
+.a{
+    
+    color: hotpink;
+    text-align: center;
+
+}
+
+.b{
+
+    color: coral;
+    text-align: center;
+
+}
+
+#h2box{
+    color: rgb(111, 20, 141);
+}
+
+
+#div1{
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(151, 192, 153);
+}
+
+#NOTE{
+
+    color: red;
+    background-color: rgb(223, 162, 88);
+    
+
+}
+
+.note{
+
+    color: darkcyan;
+
+}
+
+#box2{
+
+    width: 300px;
+    height: 100px;
+    background-color: indianred;
+    margin-top:50px ;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right:100px;
+    padding-top:20px;
+    padding-left:60px;
+   padding-right:60px;
+}
+
+.box2h3{
+
+    color: black;
+    background-color: rosybrown;
+    text-align: center;
+    
+}
+
+#Parent{
+
+    height: 500px;
+    width: 500px;
+    background-color: mediumvioletred;
+    margin: 100px 100px;
+    
+}
+
+#Child{
+    
+    /* % in css is used for relative size, depending upon on the parent element. */
+
+    height: 50%;
+    width: 50%;
+    background-color: rgb(208, 94, 166);
+    margin: 100px 100px;
+   
+    /* Short cut for padding or margin wehere the 1st no shows top & bottom and the 2nd no shows left& right */
+}
+
+.h3{
+    color: black;
+    background-color: rosybrown;
+    text-align: center;
+}
+
+.button-1{
+
+    margin: 40px;
+    font-size: 20px;
+    padding: 20px 40px;
+    color: darkblue;
+    background:url("https://i.pinimg.com/originals/4f/c6/a4/4fc6a47e95efa913e7cf973fc24269b4.gif") center/cover no-repeat;
+    background-color: darkcyan;
+    border: 5px dotted rgb(85, 202, 173);
+    border-radius: 50px;
+
+}
+
+.button-1:hover{
+    background-color: rgb(182, 57, 198);
+    font-style: italic;
+    color: cornsilk;
+}
+
+
+.button-2{
+
+    margin: 40px;
+    font-size: 20px;
+    padding: 20px 40px;
+    color: darkgreen;
+    background-color: rgb(101, 202, 101);
+    border: 4px dashed rgb(66, 118, 212);
+    border-radius: 10px;
+
+}
+
+.button-2:hover{
+    background-color: rgb(221, 77, 142);
+    font-style: oblique;
+    color: rgb(97, 91, 91);
+}
+
+#code{
+    width: 400px;
+    color: crimson;
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
