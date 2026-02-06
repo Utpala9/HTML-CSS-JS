@@ -8,3 +8,9 @@ console.warn("This is warning")
 
 // error in console
 console.error("This is an error")
+
+// in js u dont need to define data type
+
+var a = "Utpala"
+
+console.log(a)
