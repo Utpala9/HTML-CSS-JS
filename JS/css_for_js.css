@@ -3,7 +3,8 @@ html,body{
     background-color: black;
 }
  
-.h1Style {
+h1 {
 
     color: aliceblue;
+    background-color: blue;
 }
